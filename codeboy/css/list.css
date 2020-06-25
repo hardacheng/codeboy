@@ -1,0 +1,48 @@
+.bg_title{
+	background: linear-gradient(to bottom, #f0f0f0, #e0e0e0);
+}
+/* 列表主体 */
+.img_how:hover{cursor: pointer;transform: scale(1.1);}
+.a_detail:hover{cursor: pointer;}
+.img_how{transition:transform 1s;}
+.w-10{width: 10%;}
+.btn_a{
+	width: 1.5rem;
+	height: 1.5rem;
+	border-radius: 0.2rem;
+	padding: 0;
+	outline: 0;
+	border: 0;
+	color: white;
+	font-weight: bold;
+	background:linear-gradient(to bottom, #f0f0f0, #e0e0e0);
+}
+.my_input{outline: 0;}
+
+/* 分页 */
+.page-item .page-link{
+	margin-left: 0.25rem;
+	border-radius: 0.25rem;
+	border-color: #ddd;
+	background-color: transparent;
+	padding-left: 0.75rem;
+	padding-right: 0.75rem;
+} 
+.page-item .page-link:hover{
+	border-color:#0aa1ed;
+}
+.border_top{border-top: 0.0625rem dashed #b8b8b8;}
+.w-40{width: 40%;}
+.w-60{width: 60%;}
+.btn_list,.input_list{width: 1rem;height: 1rem;line-height: 1rem;}
+.btn_list{color: #fff;background:linear-gradient(to bottom, #f0f0f0, #e0e0e0);}
+.input_list:focus{outline: 0;}
+.btn_list:focus{outline: 0;}
+.input_list:hover{cursor: pointer;}
+.btn_list:hover{cursor: pointer;}
+.mt_1{margin-top: 0.125rem;}
+.price_last{background-color: #808080; height: 2.875rem;width:75%;line-height: 2.875rem;}
+.a_last{background: linear-gradient(to bottom,#27b1f6,#0aa1ed);height: 2.875rem;width: 25%;line-height: 2.875rem;}
+.a_last:hover{background: linear-gradient(to bottom,#27b1f0,#0aa1e0);}
+.a_list:hover{text-decoration: none;}
+

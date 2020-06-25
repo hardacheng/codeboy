@@ -1,0 +1,93 @@
+/* 轮播图 */
+.carousel-indicators li{
+	width: 0.8rem;
+	height: 0.8rem;
+	border-radius: 50%;
+	background: #fff;
+}
+.carousel-indicators .active{
+	background: #0aa1ed;
+}
+.carousel-indicators:hover{cursor: pointer;}
+.carousel-control-prev,.carousel-control-next{
+	width: 4%;
+	height: 20%;
+	background-color: #aaa;
+	border-redius: 0.25rem;
+	top: 40%;
+}
+/* 1楼导航样式 */
+
+#f1{border-bottom: 2px solid #d9d9d9;}
+#f1 span{font-size:24px;color: #666666;font-weight: 500;}
+/* 1楼商品样式 */
+.top_height{height: 377px;background: #e8e8e8;}
+.bottom_height{height: 233px;background: #e8e8e8;}
+.float_img1,.float_img2,.float_img3,.img_4,.d1_f2_img{transition:transform 1s;}
+.float_img1:hover{transform:scale(1.1);}
+.float_img2:hover{transform:scale(1.1);}
+.float_img3:hover{transform:scale(1.1);}
+.img_4:hover{transform:scale(1.1);}
+.d1_f2_img:hover{transform:scale(1.1);}
+.w-40{width: 40%;}
+.font_3{font-size: 22px;color: #333333;}
+.h_a4{
+	height: 1.6875rem;
+	padding: 0 0.75rem;
+	}
+@media (min-width:576px){
+	.float_img1{
+		margin-top:-255px;
+		margin-right: 22px;
+	}
+	.float_img2{
+			margin-top:-165px;
+			margin-right: 80px;
+	}
+		
+	.a2{width: 50%;}
+	.float_img3{
+		width: 45%;
+		margin-top:-145px;
+		margin-right: 55px;
+	}
+	.img_4{width: 100%;}
+	.d1_f2_img{
+		width: 24.375rem;
+		height: 18.75rem;
+		/* flex: 0 0 50%; */
+		margin-left: -160px;
+		margin-top: 41px;
+	}
+}
+
+@media (min-width:768px){
+	.float_img1{
+		margin-top:-225px;
+		margin-right: 50px;
+	}
+
+	.float_img3{
+		width: 36%;
+		margin-top:-135px;
+		margin-right: 80px;
+	}
+	.h_a4{margin-top: -0.3rem;}
+	
+}
+
+@media (min-width:992px){
+	.float_img2{
+		margin-top:-165px;
+		margin-right: 40px;
+	}
+	.a2{width: 75%;}
+	.float_img3{
+		width: 50%;
+		margin-top:-140px;
+		margin-right: 25px;
+	}
+	.h_a4{margin-top: 0rem;}
+	
+
+}

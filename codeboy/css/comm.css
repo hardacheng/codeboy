@@ -1,0 +1,31 @@
+/* 通用 */
+body{
+background-color: #f5f5f5;
+}
+/* boot的类名都是-，我自己定义的类名都是_ */
+.font_small{font-size: 0.8rem;}
+/* header、footer */
+.my_header{
+	width: 100%;
+	border: 0;
+}
+.my_footer{
+	width: 100%;
+	border: 0;
+}
+@media (min-width:576px){
+	.my_header{
+		height: 14rem;
+	}
+	.my_footer{
+		height: 35rem;
+	}
+}
+@media (min-width:992px){
+	.my_header{
+		height: 9rem;
+	}
+	.my_footer{
+		height: 20rem;
+	}
+}
